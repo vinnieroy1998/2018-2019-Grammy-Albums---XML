@@ -1,0 +1,1859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Albums
+[
+<!ELEMENT Albums (artist+)>
+<!ELEMENT artist (album)>
+<!ATTLIST artist personorgroup CDATA #REQUIRED>
+<!ATTLIST artist groupmembernames CDATA #REQUIRED>
+<!ATTLIST artist artistorgroupcountry CDATA #REQUIRED>
+<!ATTLIST artist careerBegin CDATA #REQUIRED>
+<!ATTLIST artist careerend CDATA #REQUIRED>
+<!ATTLIST artist artistName CDATA #REQUIRED>
+<!ELEMENT album (albumArt, releases, Songs, producersMixersSongwritersEngineers*)>
+<!ELEMENT releases (release+)>
+<!ELEMENT release ANY>
+<!ELEMENT Songs (song+)>
+<!ELEMENT song ANY>
+<!ELEMENT producersMixersSongwritersEngineers (producers*, engineersMixers, songwriters, masteringEngineer)>
+<!ELEMENT engineersMixers (#PCDATA)>
+<!ELEMENT songwriters (#PCDATA)>
+<!ELEMENT masteringEngineer (#PCDATA)>
+<!ELEMENT producers (#PCDATA)>
+<!ATTLIST release release CDATA #REQUIRED>
+<!ATTLIST release releasedate CDATA #REQUIRED>
+<!ATTLIST release recordlabel CDATA #REQUIRED>
+<!ATTLIST release recordlabelcatalognumber CDATA #REQUIRED>
+<!ATTLIST release  barcodenumber CDATA #REQUIRED>
+<!ATTLIST release  country CDATA #REQUIRED>
+<!ATTLIST release  format CDATA #REQUIRED>
+<!ATTLIST album albumCategory CDATA #REQUIRED>
+<!ATTLIST album albumName CDATA #REQUIRED>
+<!ATTLIST song songposition CDATA #REQUIRED>
+<!ATTLIST song songlength CDATA #REQUIRED>
+<!ATTLIST song songcomposersandwriters CDATA #REQUIRED>
+<!ATTLIST song songName CDATA #REQUIRED>
+
+<!ELEMENT albumArt (#PCDATA)>
+
+
+
+
+
+
+]
+>
+<Albums>
+        <artist 
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "2015" careerend= "N/A"
+        artistName = "Cardi B">
+                <album albumCategory = "Grammy Nominee"
+                       albumName = "Invasion of Privacy">
+                    <albumArt>
+                        Cardi B.jpg
+                        <!-- Found from albumartexchange.com -->
+                    </albumArt>
+                    <releases>
+                        <release 
+                            release = "Invasion of Privacy (clean lyrics)"
+                            releasedate = "2018-04-05"
+                            recordlabel= "Atlantic (Warner Music imprint), KSR Group"
+                            recordlabelcatalognumber = "N/A"
+                            barcodenumber = "075679873675"
+                            country = "US"
+                            format = "Digital Media">
+                        </release>
+                        <release
+                            release = "Invasion of Privacy (explicit)"
+                            releasedate = "2018-04-05 / 2018-04-06 / 2018-04-06"
+                            recordlabel= "Atlantic (Warner Music imprint), KSR Group"
+                            recordlabelcatalognumber = "N/A"
+                            barcodenumber = "075679873682"
+                            country = "XW
+                            CA
+                            US"
+                            format = "Digital Media">
+                        </release>
+                    </releases>
+                    <Songs>
+                        <song 
+                            songposition = "1" 
+                            songlength = "3:51" 
+                            songcomposersandwriters = "Sean Allen / Belcalis Almanzar / Maurice Jordan / Jermaine Preyan / James SwanQo / Anthony Tucker / Robert Williams"
+                            songName = "Get Up 10">
+                        </song>
+                        <song 
+                            songposition = "2" 
+                            songlength = "4:23" 
+                            songcomposersandwriters = "Belcalis Almanzar / Kirsnick Ball / Kiari Cephus / Joshua Cross / Quavious Marshall"
+                            songName = "Drip (feat. Migos)">
+                        </song>
+                        <song 
+                            songposition = "3" 
+                            songlength = "3:01" 
+                            songcomposersandwriters = "Belcalis Almanzar / James Foye III / Philip Coleman, Jr. / Austin Owens / Jordan Thorpe"
+                            songName = "Bickenhead">
+                        </song>
+                        <song 
+                            songposition = "4" 
+                            songlength = "3:43" 
+                            songcomposersandwriters = "Belcalis Almanzar / Laquan Green / J. White Did It / Dieuson Octave / Klenord Raphael / Jordan Thorpe / Jermaine White"
+                            songName = "Bodak Yellow">
+                        </song>
+                        <song 
+                            songposition = "5" 
+                            songlength = "3:30" 
+                            songcomposersandwriters = "Belcalis Almanzar / Alan Bergman / Marilyn Bergman / Dennis Coles / Robert Diggs / Adam Feeney / Gary Grice / Marvin Hamlisch / Lamont Hawkins / Anderson Hernandez / Lauryn Hill / Jason Hunter / Russell Jones / Matthew Samuels / Clifford Smith / Jordan Thorpe / U-God / Corey Woods"
+                            songName = "Be Careful">
+                        </song>
+                        <song 
+                            songposition = "6" 
+                            songlength = "4:44" 
+                            songcomposersandwriters = "Belcalis Almanzar / Chancelor Bennett / Allen Ritter / Matthew Samuels"
+                            songName = "Best Life">
+                        </song>
+                        <song 
+                            songposition = "7" 
+                            songlength = "4:13" 
+                            songcomposersandwriters = "Belcalis Almanzar / José Álvaro Osorio Balvin / Benito Antonio Martinez Ocasio / Tony Pabon / Manny Rodriguez"
+                            songName = "I Like It">
+                        </song>
+                        <song 
+                            songposition = "8" 
+                            songlength = "2:57" 
+                            songcomposersandwriters = "Belcalis Almanzar / Khari Cain / Nija Charles / Kehlani Parrish / Mike Riley"
+                            songName = "Ring">
+                        </song>
+                        <song 
+                            songposition = "9" 
+                            songlength = "3:49" 
+                            songcomposersandwriters = "Belcalis Almanzar / Jordan Thorpe / Jermaine White"
+                            songName = "Money Bag">
+                        </song>
+                        <song 
+                            songposition = "10" 
+                            songlength = "3:44" 
+                            songcomposersandwriters = "Shayaa Bin Abraham-Joseph / Belcalis Almanzar / Samuel Gloade / Darryl McCorkell"
+                            songName = "Bartier Cardi (feat. 21 Savage)">
+                        </song>
+                        <song 
+                            songposition = "11" 
+                            songlength = "3:50" 
+                            songcomposersandwriters = "Belcalis Almanzar / Keenon Jackson / Leslie Andre Wakefield Jr. / Dijon McFarlane"
+                            songName = "She Bad">
+                        </song>
+                        <song 
+                            songposition = "12" 
+                            songlength = "3:08" 
+                            songcomposersandwriters = "Belcalis Almanzar / Benjamin Levin / Alexandra Tamposi / Justin Tranter / Andrew Wotman"
+                            songName = "Thru Your Phone">
+                        </song>
+                        <song 
+                            songposition = "13" 
+                            songlength = "3:20" 
+                            songcomposersandwriters = "Belcalis Almanzar / Nija Charles / Kevin Gomringer / Tim Gomringer / Shane Lindstrom / Solana Rowe"
+                            songName = "I Do">
+                        </song>
+                    </Songs>
+                    <producersMixersSongwritersEngineers>
+                        <engineersMixers>
+                            Leslie Brathwaite &amp; Evan LaRay
+                        </engineersMixers>
+                        <songwriters>
+                            Belcalis Almanzar &amp; Jorden Thorpe
+                        </songwriters>
+                        <masteringEngineer>
+                            Colin Leonard
+                        </masteringEngineer>
+                    </producersMixersSongwritersEngineers>
+                </album>
+        </artist>
+        
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "2004" careerend= "N/A"
+        artistName = "Brandi Carlile">
+            
+            <album
+                albumCategory = "Grammy_Nominee"
+                albumName = "By The Way, I Forgive You">
+                
+                <albumArt>
+                    Brandi Carlile.jpg
+                    <!-- Found from albumartexchange.com -->
+                </albumArt>
+                
+                <releases>
+                    <release 
+                        release = "By the Way, I Forgive You"
+                        releasedate = "2018-02-16"
+                        recordlabel= "Elektra (1950–1989, revived 2009–06-01; read annotations before use), Low Country Sound"
+                        recordlabelcatalognumber = "565226-2"
+                        barcodenumber = "075678659188"
+                        country = "US"
+                        format = "CD">
+                    </release>
+                    <release 
+                        release = "By the Way, I Forgive You (mastered for iTunes)"
+                        releasedate = "2018-02-16"
+                        recordlabel= "Elektra (1950–1989, revived 2009–06-01; read annotations before use)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "075679885449"
+                        country = "US"
+                        format = "Digital Media">
+                    </release>
+                </releases>
+                <Songs>
+                    <song 
+                        songposition = "1" 
+                        songlength = "4:01" 
+                        songcomposersandwriters = "Brandi Carlile / Phil Hanseroth / Tim Hanseroth"
+                        songName = "Everytime I Hear That Song">
+                    </song>
+                    <song 
+                        songposition = "2" 
+                        songlength = "4:39" 
+                        songcomposersandwriters = "Brandi Carlile / Dave Cobb / Phil Hanseroth / Tim Hanseroth"
+                        songName = "The Joke">
+                    </song>
+                    <song 
+                        songposition = "3" 
+                        songlength = "4:22" 
+                        songcomposersandwriters = "Brandi Carlile / Phil Hanseroth / Tim Hanseroth"
+                        songName = "Hold Out Your Hand">
+                    </song>
+                    <song 
+                        songposition = "4" 
+                        songlength = "3:16" 
+                        songcomposersandwriters = "Brandi Carlile / Phil Hanseroth / Tim Hanseroth"
+                        songName = "The Mother">
+                    </song>
+                    <song 
+                        songposition = "5" 
+                        songlength = "4:07" 
+                        songcomposersandwriters = "Brandi Carlile / Phil Hanseroth / Tim Hanseroth"
+                        songName = "Whatever You Do">
+                    </song>
+                    <song 
+                        songposition = "6" 
+                        songlength = "4:43" 
+                        songcomposersandwriters = "Brandi Carlile / Phil Hanseroth / Tim Hanseroth"
+                        songName = "Fulton County Jane Doe">
+                    </song>
+                    <song 
+                        songposition = "7" 
+                        songlength = "4:28" 
+                        songcomposersandwriters = "Brandi Carlile / Phil Hanseroth / Tim Hanseroth"
+                        songName = "Sugartooth">
+                    </song>
+                    <song 
+                        songposition = "8" 
+                        songlength = "3:51" 
+                        songcomposersandwriters = "Brandi Carlile / Phil Hanseroth / Tim Hanseroth"
+                        songName = "Most of All">
+                    </song>
+                    <song 
+                        songposition = "9" 
+                        songlength = "4:06" 
+                        songcomposersandwriters = "Brandi Carlile / Phil Hanseroth / Tim Hanseroth"
+                        songName = "Harder to Forgive">
+                    </song>
+                    <song 
+                        songposition = "10" 
+                        songlength = "5:47" 
+                        songcomposersandwriters = "Brandi Carlile / Phil Hanseroth / Tim Hanseroth"
+                        songName = "Party of One">
+                    </song>
+                </Songs>
+                <producersMixersSongwritersEngineers>
+                    <producers>
+                    Dave Cobb &amp; Shooter Jennings
+                    </producers>
+                    <engineersMixers>
+                    Dave Cobb &amp; Eddie Spear
+                    </engineersMixers>
+                    <songwriters>
+                    Brandi Carlile, Phil Hanseroth &amp; Tim Hanseroth
+                    </songwriters>
+                    <masteringEngineer>
+                    Pete Lyman
+                    </masteringEngineer>
+                </producersMixersSongwritersEngineers>
+            </album>
+    </artist>
+    
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "2001" careerend= "N/A"
+        artistName = "Drake">
+            
+            <album
+                albumName = "Scorpion"
+                albumCategory = "Grammy_Nominee">
+                
+                <albumArt>
+                    Drake.jpg
+                    <!-- Found from albumartexchange.com -->
+                </albumArt>
+                
+                <releases>
+                    <release 
+                        release = "Scorpion (clean lyrics)"
+                        releasedate = "2018-06-29"
+                        recordlabel= "Cash Money Records, Young Money Entertainment"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567879152"
+                        country = "US"
+                        format = "2×Digital Media">
+                    </release>
+                    <release 
+                        release = "Scorpion (explicit)"
+                        releasedate = "2018-06-29"
+                        recordlabel= "Cash Money Records, Young Money Entertainment"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567879121"
+                        country = "XW"
+                        format = "2×Digital Media">
+                    </release>
+                    <release 
+                        release
+                        = "Scorpion"
+                        releasedate = "2018"
+                        recordlabel= "Cash Money Records, Republic Records (a division of UMG Recordings, Inc.)"
+                        recordlabelcatalognumber = "00602567863182"
+                        barcodenumber = "602567863182"
+                        country = "NL"
+                        format = "2×CD">
+                    </release>
+                </releases>
+                <Songs>
+                        <song
+                            songposition = "1" 
+                            songlength = "2:16" 
+                            songcomposersandwriters = "Aubrey Graham / Manuel Landy / Klaus Netzle / Noah Shebib / Dion Wilson"
+                            songName = "Survival">
+                        </song>
+                        <song 
+                            songposition = "2" 
+                            songlength = "3:58" 
+                            songcomposersandwriters = "Brytavious Chambers / Aubrey Graham / Dion Wilson"
+                            songName = "Nonstop">
+                        </song>
+                        <song 
+                            songposition = "3" 
+                            songlength = "3:04" 
+                            songcomposersandwriters = "Jahron Brathwaite / Gary Fountaine / Aubrey Graham"
+                            songName = "Elevate">
+                        </song>
+                        <song 
+                            songposition = "4" 
+                            songlength = "5:02" 
+                            songcomposersandwriters = "Mariah Carey / Robert Clivillés / Dennis Coles / Andrew Gowie / Aubrey Graham / Noah Shebib / Dion Wilson"
+                            songName = "Emotionless">
+                        </song>
+                        <song 
+                            songposition = "5" 
+                            songlength = "3:18" 
+                            songcomposersandwriters = "Aubrey Graham / Daveon Jackson / Brock Korsan / Ronald LaTour / Matthew Samuels / Noah Shebib"
+                            songName = "God's Plan">
+                        </song>
+                        <song 
+                            songposition = "6" 
+                            songlength = "3:34" 
+                            songcomposersandwriters = "Aubrey Graham / Jordan Ortiz"
+                            songName = "I'm Upset">
+                        </song>
+                        <song 
+                            songposition = "7" 
+                            songlength = "3:15" 
+                            songcomposersandwriters = "Aubrey Graham / Matthew O'Brien / Arthur Ross / Matthew Samuels / Jahaan Sweet / Abrim Tilmon / Leon Ware"
+                            songName = "8 Out of 10">
+                        </song>
+                        <song 
+                            songposition = "8" 
+                            songlength = "3:25" 
+                            songcomposersandwriters = "Dave Atkinson / Samuel Barnes / Anthony Cruz / Aubrey Graham / Nasir Jones / Tavoris Hollins, Jr. / Inga Marchand / Cory McKay / Jean-Claude Olivier / Allen Ritter / Matthew Samuels / Asheley Turner"
+                            songName = "Mob Ties">
+                        </song>
+                        <song 
+                            songposition = "9" 
+                            songlength = "2:43" 
+                            songcomposersandwriters = "Max Eberhardt / Aubrey Graham"
+                            songName = "Can't Take a Joke">
+                        </song>
+                        <song 
+                            songposition = "10" 
+                            songlength = "3:36" 
+                            songcomposersandwriters = "Maneesh Bidaye / Aubrey Graham / Chris Martin"
+                            songName = "Sandra's Rose">
+                        </song>
+                        <song 
+                            songposition = "11" 
+                            songlength = "3:43" 
+                            songcomposersandwriters = "Paul Beauregard / Leroy Bonner / Dwayne Carter / Aubrey Graham / O'Shea Jackson / Marshall Jones / Ralph Middlebrooks / Walter Morisson / Andrew Noland / Gregory Webster / Andre Young"
+                            songName = "Talk Up">
+                        </song>
+                        <song 
+                            songposition = "12" 
+                            songlength = "3:46" 
+                            songcomposersandwriters = "Stephen Garrett / Aubrey Graham / Raynford Humphrey / Nima Jahanbin / Paimon Jahanbin / Joseph W. Lane Jr. / Timothy Mosley / Jeffrey Williams"
+                            songName = "Is There More">
+                        </song>
+                        <song 
+                            songposition = "13" 
+                            songlength = "3:26" 
+                            songcomposersandwriters = "Aubrey Graham / Noah Shebib"
+                            songName = "Peak">
+                        </song>    
+                        <song
+                            songposition = "14" 
+                            songlength = "4:07" 
+                            songcomposersandwriters = "Harley Arsenault / Maneesh Bidaye / Aubrey Graham / Paul Jefferies / Noah Shebib / Dion Wilson"
+                            songName = "Summer Games">
+                        </song>
+                        <song 
+                            songposition = "15" 
+                            songlength = "4:22" 
+                            songcomposersandwriters = "Harley Arsenault / Maneesh Bidaye / Aubrey Graham / Paul Jefferies / Noah Shebib / Dion Wilson"
+                            songName = "Jaded">
+                        </song>
+                        <song 
+                            songposition = "16" 
+                            songlength = "3:30" 
+                            songcomposersandwriters = "Alan Bergman / Marilyn Bergman / Dennis Coles / Robert Diggs / Aubrey Graham / Gary Grice / Orville Hall / Marvin Hamlisch / Lamont Hawkins / Lauryn Hill / Jason Hunter / Russell Jones / Shane Lindstrom / Phillip Price / Glenshie Rowe / Noah Shebib / Clifford Smith / Byron Thomas / Bryan Williams / Corey Woods"
+                            songName = "Nice for What">
+                        </song>
+                        <song 
+                            songposition = "17" 
+                            songlength = "3:02" 
+                            songcomposersandwriters = "Noel Cadastre / James Fauntleroy / Aubrey Graham"
+                            songName = "Finesse">
+                        </song>
+                        <song
+                            songposition = "18" 
+                            songlength = "3:27" 
+                            songcomposersandwriters = "Jahron Brathwaite / Leonard Caston / Aubrey Graham / Anita Poree / Matthew Samuels / Jahaan Sweet / Dalton Tennant"
+                            songName = "Ratchet Happy Birthday">
+                        </song>
+                        <song
+                            songposition = "19" 
+                            songlength = "2:37" 
+                            songcomposersandwriters = "Noel Cadastre / Aubrey Graham / John Hyszko / Onika Maraj"
+                            songName = "That's How You Feel">
+                        </song>
+                        <song
+                            songposition = "20" 
+                            songlength = "2:42" 
+                            songcomposersandwriters = "Aubrey Graham / Ramon Ibanga / Demario Priester / Nayvadius Wilburn"
+                            songName = "Blue Tint">
+                        </song>
+                        <song
+                            songposition = "21" 
+                            songlength = "3:37" 
+                            songcomposersandwriters = "Caresha Brownlee / Dwayne Carter / Stephen Garrett / Aubrey Graham / Orville Hall / Darius Harrison / Jatavia Johnson / Renetta Lowe-Bridgewater / Phillip Price / James Scheffer / Benny Workman / Rex Zamor"
+                            songName = "In My Feelings">
+                        </song>
+                        <song
+                            songposition = "22" 
+                            songlength = "4:05" 
+                            songcomposersandwriters = "Paul Anka / Negin Djafari / Aubrey Graham / Michael Jackson / Paul Jefferies / Nana Rogues / Noah Shebib"
+                            songName = "Don't Matter to Me">
+                        </song>   
+                        <song
+                            songposition = "23" 
+                            songlength = "4:49" 
+                            songcomposersandwriters = "Stephen Garrett / Aubrey Graham / Tyrone Griffin / Musze / Melvin Ragin / Noah Shebib"
+                            songName = "After Dark">
+                        </song>
+                        <song
+                            songposition = "24" 
+                            songlength = "3:39" 
+                            songcomposersandwriters = "Alan Bergman / Marilyn Bergman / Aubrey Graham / Michel Legrand / Matthew Samuels / Noah Shebib / Jahaan Sweet"
+                            songName = "Final Fantasy">
+                        </song>
+                        <song 
+                            songposition = "25" 
+                            songlength = "5:09" 
+                            songcomposersandwriters = "Michael Archer / Aubrey Graham / Nathan Morris / Raphael Saadiq / Shawn Stockman / Josh Valle / Tyler Williams"
+                            songName = "March 14">
+                        </song>
+                </Songs>
+                <producersMixersSongwritersEngineers>
+                    <engineersMixers>
+                    Noel Cadastre, Noel "Gadget" Campbell &amp; Noah Shebib
+                    </engineersMixers>
+                    <songwriters>
+                    Aubrey Graham &amp; Noah Shebib
+                    </songwriters>
+                    <masteringEngineer>
+                    Chris Athens
+                    </masteringEngineer>
+                </producersMixersSongwritersEngineers>
+            </album>   
+    </artist>        
+    
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "2009" careerend= "N/A"
+        artistName = "H.E.R.">
+        
+        <album
+            albumName = "H.E.R."
+            albumCategory = "Grammy_Nominee">
+            <albumArt>
+                H.E.R..jpg
+                <!-- Found from albumartexchange.com -->
+            </albumArt>
+            
+            <releases>
+                <release
+                    release = "H.E.R. (Mastered for iTunes)"
+                    releasedate = "2017-10-20"
+                    recordlabel= "RCA (RCA Records: simple ‘RCA’ or 'RCA' with lightning bolt in circle)"
+                    recordlabelcatalognumber = "N/A"
+                    barcodenumber = "886446799513"
+                    country = "US"
+                    format = "Digital Media">
+                </release>
+            </releases>
+            
+            <Songs>
+                    <song 
+                        songposition = "1" 
+                        songlength = "3:45" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Losing">
+                    </song>
+                    <song
+                        songposition = "2" 
+                        songlength = "2:15" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Wait for It">
+                    </song>
+                    <song
+                        songposition = "3" 
+                        songlength = "3:38" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Facts">
+                    </song>
+                    <song
+                        songposition = "4" 
+                        songlength = "2:58" 
+                        songcomposersandwriters = "N/A"
+                        songName = "U">
+                    </song>
+                    <song
+                        songposition = "5" 
+                        songlength = "3:20" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Focus">
+                    </song>
+                    <song 
+                        songposition = "6" 
+                        songlength = "5:04" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Jungle">
+                    </song>
+                    <song 
+                        songposition = "7" 
+                        songlength = "2:58" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Pigment">
+                    </song>
+                    <song 
+                        songposition = "8" 
+                        songlength = "2:40" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Every Kind of Way">
+                    </song>
+                    <song 
+                        songposition = "9" 
+                        songlength = "2:52" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Say It Again">
+                    </song>
+                    <song
+                        songposition = "10" 
+                        songlength = "2:49" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Still Down">
+                    </song>
+                    <song 
+                        songposition = "11" 
+                        songlength = "3:34" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Avenue">
+                    </song>
+                    <song 
+                        songposition = "12" 
+                        songlength = "4:10" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Gone Away">
+                    </song>
+                    <song
+                        songposition = "13" 
+                        songlength = "3:33" 
+                        songcomposersandwriters = "N/A"
+                        songName = "I Won't">
+                    </song>
+                    <song
+                        songposition = "14" 
+                        songlength = "3:34" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Changes">
+                    </song>
+                    <song
+                        songposition = "15" 
+                        songlength = "3:39" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Lights On">
+                    </song>
+            </Songs>
+            
+            <producersMixersSongwritersEngineers>
+                <producers>
+                Darhyl “Hey DJ” Camper Jr, David ‘Swagg R’Celious’ Harris, H.E.R., Walter Jones &amp; Jeff Robinson
+                </producers>
+                <engineersMixers>
+                Miki Tsutsumi
+                </engineersMixers>
+                <songwriters>
+                Darhyl Camper Jr &amp; H.E.R.
+                </songwriters>
+                <masteringEngineer>
+                Dave Kutch
+                </masteringEngineer>
+            </producersMixersSongwritersEngineers>
+        </album>
+    </artist>
+    
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "2013" careerend= "N/A"
+        artistName = "Post Malone">
+            <album
+                albumCategory = "Grammy_Nominee"
+                albumName = "Beerbongs &amp; Bentleys">
+                
+                <albumArt>
+                    Post Malone.jpg
+                    <!-- Found from albumartexchange.com -->
+                </albumArt>
+                
+                <releases>
+                    <release 
+                        release = "beerbongs &amp; bentleys"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Republic Records (a division of UMG Recordings, Inc.)"
+                        recordlabelcatalognumber = "B002821802"
+                        barcodenumber = "602567491118"
+                        country = "AU"
+                        format = "CD">
+                    </release>
+                    <release
+                        release = "beerbongs &amp; bentleys"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Republic Records (a division of UMG Recordings, Inc.)"
+                        recordlabelcatalognumber = "B002821802"
+                        barcodenumber = "602567491118"
+                        country = "XE"
+                        format = "CD">
+                    </release>
+                    <release
+                        release = "beerbongs &amp; bentleys (Mastered for iTunes)"
+                        releasedate = "2018-04-27"
+                        recordlabel = "Republic Records (a division of UMG Recordings, Inc.)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567647461"
+                        country = "FR / US"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "beerbongs &amp; bentleys (explicit)"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Republic Records (a division of UMG Recordings, Inc.)"
+                        recordlabelcatalognumber = "B0028218‒02"
+                        barcodenumber = "602567491118"
+                        country = "US"
+                        format = "CD">
+                    </release>
+                    <release
+                        release = "beerbongs &amp; bentleys (Mastered for iTunes, clean lyrics)"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Republic Records (a division of UMG Recordings, Inc.)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567647515"
+                        country = "US"
+                        format = "Digital Media">
+                    </release>
+                </releases>
+                
+                <Songs>
+                    <song
+                        songposition = "1" 
+                        songlength = "3:41" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Paranoid">
+                    </song>
+                    <song
+                        songposition = "2" 
+                        songlength = "3:14" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Spoil My Night">
+                    </song>
+                    <song
+                        songposition = "3" 
+                        songlength = "3:26" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Rich &amp; Sad">
+                    </song>
+                    <song
+                        songposition = "4" 
+                        songlength = "3:24" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Zack and Codeine">
+                    </song>
+                    <song
+                        songposition = "5" 
+                        songlength = "3:36" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Takin' Shots">
+                    </song>
+                    <song
+                        songposition = "6" 
+                        songlength = "3:38" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Rockstar">
+                    </song>
+                    <song
+                        songposition = "7" 
+                        songlength = "4:06" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Over Now">
+                    </song>
+                    <song
+                        songposition = "8" 
+                        songlength = "3:41" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Psycho">
+                    </song>
+                    <song
+                        songposition = "9" 
+                        songlength = "3:51" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Better Now">
+                    </song>
+                    <song
+                        songposition = "10" 
+                        songlength = "3:26" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Ball for Me">
+                    </song>
+                    <song
+                        songposition = "11" 
+                        songlength = "3:48"
+                        songcomposersandwriters = "N/A"
+                        songName = "Otherside">
+                    </song>
+                    <song
+                        songposition = "12" 
+                        songlength = "3:24" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Stay">
+                    </song>
+                    <song 
+                        songposition = "13" 
+                        songlength = "4:21" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Blame It on Me">
+                    </song>
+                    <song
+                        songposition = "14" 
+                        songlength = "3:32" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Same Bitches">
+                    </song>
+                    <song 
+                        songposition = "15" 
+                        songlength = "1:52" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Jonestown (Interlude)">
+                    </song>
+                    <song 
+                        songposition = "16" 
+                        songlength = "3:31" 
+                        songcomposersandwriters = "N/A"
+                        songName = "92 Explorer">
+                    </song>
+                    <song 
+                        songposition = "17" 
+                        songlength = "3:47" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Candy Paint">
+                    </song>
+                    <song
+                        songposition = "18" 
+                        songlength = "3:48" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Sugar Wraith">
+                    </song>
+                </Songs>
+                
+                <producersMixersSongwritersEngineers>
+                <producers>
+                    Louis Bell &amp; Post Malone
+                </producers>
+                <engineersMixers>
+                    Louis Bell &amp; Manny Marroquin
+                </engineersMixers>
+                <songwriters>
+                    Louis Bell &amp; Austin Post
+                </songwriters>
+                <masteringEngineer>
+                    Mike Bozzi
+                </masteringEngineer>
+                    </producersMixersSongwritersEngineers>
+            </album>
+    </artist>
+    
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "2003" careerend= "N/A"
+        artistName = "Janelle Monáe">
+            
+            <album
+                albumCategory = "Grammy_Nominee"
+                albumName = "Dirty Computer">
+                <albumArt>
+                    Janelle Monae.jpg
+                    <!-- Found from albumartexchange.com -->
+                </albumArt>
+                
+                <releases>
+                    <release
+                        release = "Dirty Computer"
+                        releasedate = "2018-04-27 / 2018-04-27"
+                        recordlabel= "Bad Boy Records"
+                        recordlabelcatalognumber = "075679877956"
+                        barcodenumber = "075679877956"
+                        country = "MX / US"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "Dirty Computer"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Atlantic (Warner Music imprint), Bad Boy Records"
+                        recordlabelcatalognumber = "567348-2"
+                        barcodenumber = "075678657931"
+                        country = "US / XE"
+                        format = "CD">
+                    </release>
+                    <release 
+                        release = "Dirty Computer (clean lyrics, mastered for iTunes)"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Bad Boy Records"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "075679876904"
+                        country = "US"
+                        format = "Digital Media">
+                    </release>
+                    <release 
+                        release = "Dirty Computer (explicit, mastered for iTunes)"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Bad Boy Records"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "075679876911"
+                        country = "US"
+                        format = "Digital Media">
+                    </release>
+                    <release 
+                        release = "Dirty Computer (Explicit)"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Bad Boy Records"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "075679876911"
+                        country = "US"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "Dirty Computer (24‐bit / 44.1kHz)"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Bad Boy Records"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "N/A"
+                        country = "XW"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "Dirty Computer"
+                        releasedate = "2018-04-27"
+                        recordlabel= "Bad Boy Records"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "075679877949"
+                        country = "N/A"
+                        format = "Digital Media">
+                    </release>
+                </releases>
+                <Songs>
+                    <song
+                        songposition = "1" 
+                        songlength = "1:59" 
+                        songcomposersandwriters = "Dr. Nathaniel Irvin III / Janelle Monáe Robinson / Nate 'Rocket' Wonder"
+                        songName = "Dirty Computer">
+                    </song>
+                    <song
+                        songposition = "2" 
+                        songlength = "4:46" 
+                        songcomposersandwriters = "Charles Joseph II / Dr. Nathaniel Irvin III / Janelle Monáe Robinson / Nate 'Rocket' Wonder"
+                        songName = "Crazy, Classic, Life">
+                    </song>
+                    <song
+                        songposition = "3" 
+                        songlength = "4:07" 
+                        songcomposersandwriters = "Dr. Nathaniel Irvin III / John Webb Jr. / Janelle Monáe Robinson / Nana Kwabena Tuffuor / Nate 'Rocket' Wonder"
+                        songName = "Take a Byte">
+                    </song>
+                    <song
+                        songposition = "4" 
+                        songlength = "0:18" 
+                        songcomposersandwriters = "Jon Brion"
+                        songName = "Jane's Dream">
+                    </song>
+                    <song 
+                        songposition = "5" 
+                        songlength = "5:02" 
+                        songcomposersandwriters = "Roman GianArthur / Charles Joseph II / Dr. Nathaniel Irvin III / Benjamin Hudson McIldowie / Janelle Monáe Robinson"
+                        songName = "Screwed">
+                    </song>
+                    <song
+                        songposition = "6" 
+                        songlength = "3:10" 
+                        songcomposersandwriters = "Dr. Nathaniel Irvin III / Janelle Monáe Robinson / Nana Kwabena Tuffuor"
+                        songName = "Django Jane">
+                    </song>
+                    <song
+                        songposition = "7" 
+                        songlength = "4:00" 
+                        songcomposersandwriters = "Wynne Bennett / Charles Joseph II / Dr. Nathaniel Irvin III / Taylor Parks / Janelle Monáe Robinson"
+                        songName = "PYNK">
+                    </song>
+                    <song
+                        songposition = "8" 
+                        songlength = "3:14" 
+                        songcomposersandwriters = "Robin Fredriksson / Matt Friedman / Julia Michaels / Janelle Monáe Robinson / Justin Tranter"
+                        songName = "Make Me Feel">
+                    </song>
+                    <song
+                        songposition = "9" 
+                        songlength = "3:46" 
+                        songcomposersandwriters = "Joshua Dean / Roman GianArthur / Dr. Nathaniel Irvin III / Taylor Parks / Janelle Monáe Robinson / Nana Kwabena Tuffuor / Pharrell Williams"
+                        songName = "I Got the Juice">
+                    </song>
+                    <song
+                        songposition = "10" 
+                        songlength = "3:20" 
+                        songcomposersandwriters = "Patrick Brown / Dr. Nathaniel Irvin III / Ray Murray / Taylor Parks / Janelle Monáe Robinson / Rico Wade"
+                        songName = "I Like That">
+                    </song>
+                    <song
+                        songposition = "11" 
+                        songlength = "6:03" 
+                        songcomposersandwriters = "Roman GianArthur / Dr. Nathaniel Irvin III"
+                        songName = "Stevie's Dream">
+                    </song>
+                    <song
+                        songposition = "12" 
+                        songlength = "0:46" 
+                        songcomposersandwriters = "Joshua Dean / Roman GianArthur / Dr. Nathaniel Irvin III / Taylor Parks / Janelle Monáe Robinson"
+                        songName = "Don't Judge Me">
+                    </song>
+                    <song
+                        songposition = "13" 
+                        songlength = "4:04" 
+                        songcomposersandwriters = "Dr. Nathaniel Irvin III / Janelle Monáe Robinson"
+                        songName = "So Afraid">
+                    </song>
+                    <song
+                        songposition = "14" 
+                        songlength = "4:06" 
+                        songcomposersandwriters = "Charles Joseph II / Dr. Nathaniel Irvin III / John Webb Jr. / Janelle Monáe Robinson"
+                        songName = "Americans">
+                    </song>
+                </Songs>
+                
+                <producersMixersSongwritersEngineers>
+                    <producers>
+                        Chuck Lightning &amp; Janelle Monáe Robinson &amp; Nate "Rocket" Wonder
+                    </producers>
+                    <engineersMixers>
+                        Mick Guzauski, Janelle Monáe Robinson &amp; Nate "Rocket" Wonder
+                    </engineersMixers>
+                    <songwriters>
+                        Nathaniel Irvin III, Charles Joseph II, Taylor Parks &amp; Janelle Monáe Robinson
+                    </songwriters>
+                    <masteringEngineer>
+                        Chris Gehringer
+                    </masteringEngineer>
+                </producersMixersSongwritersEngineers>
+            </album>                     
+    </artist>
+       
+        
+        
+      <artist
+          personorgroup= "person" 
+          groupmembernames= "N/A" 
+          artistorgroupcountry= "United States" 
+          careerBegin= "2006" careerend= "N/A"
+          artistName = "Kacey Musgraves">
+        
+              <album
+                  albumName = "Golden Hour"
+                  albumCategory = "Grammy_Nominee">
+                  <albumArt>
+                      Kacey Musgraves.jpg
+                      <!-- Found from albumartexchange.com -->
+                  </albumArt>
+                  
+                  <releases>
+                      <release 
+                          release = "Golden Hour"
+                          releasedate = "2018-03-30"
+                          recordlabel= "MCA Nashville (formerly Decca Nashville, 1955–1973)"
+                          recordlabelcatalognumber = "B0027921-02"
+                          barcodenumber = "602567334453"
+                          country = "US"
+                          format = "CD">
+                      </release>
+                      <release 
+                          release = "Golden Hour"
+                          releasedate = "2018-03-30"
+                          recordlabel= "MCA Nashville (formerly Decca Nashville, 1955–1973)"
+                          recordlabelcatalognumber = "B0027921-01"
+                          barcodenumber = "602567334460"
+                          country = "US"
+                          format = "12 Vinyl">
+                      </release>
+                      <release
+                          release = "Golden Hour (mastered for iTunes)"
+                          releasedate = "2018-03-30"
+                          recordlabel= "MCA Nashville (formerly Decca Nashville, 1955–1973)"
+                          recordlabelcatalognumber = "N/A"
+                          barcodenumber = "602567385714"
+                          country = "US"
+                          format = "Digital Media">
+                      </release>
+                      <release 
+                          release = "Golden Hour"
+                          releasedate = "2018-03-30"
+                          recordlabel= "MCA Nashville (formerly Decca Nashville, 1955–1973)"
+                          recordlabelcatalognumber = "N/A"
+                          barcodenumber = "602567385707"
+                          country = "XW"
+                          format = "Digital Media">
+                      </release>
+                      <release 
+                          release = "Golden Hour"
+                          releasedate = "2018-07-04"
+                          recordlabel= "MCA Nashville (formerly Decca Nashville, 1955–1973)"
+                          recordlabelcatalognumber = "UICO 1303"
+                          barcodenumber = "4988031287231"
+                          country = "JP"
+                          format = "CD">
+                      </release>
+                      <release
+                          release = "Golden Hour"
+                          releasedate = "N/A"
+                          recordlabel= "N/A"
+                          recordlabelcatalognumber = "N/A"
+                          barcodenumber = "0256733445"
+                          country = "N/A"
+                          format = "Digital Media + CD">
+                      </release>
+                  </releases>
+                  
+                  <Songs>
+                      <song
+                          songposition = "1" 
+                          songlength = "4:06" 
+                          songcomposersandwriters = "Ian Fitchuk / Kacey Musgraves / Daniel Tashian"
+                          songName = "Slow Burn">
+                      </song>
+                      <song
+                          songposition = "2" 
+                          songlength = "3:46" 
+                          songcomposersandwriters = "Ian Fitchuk / Kacey Musgraves / Daniel Tashian"
+                          songName = "Lonely Weekend">
+                      </song>
+                      <song
+                          songposition = "3" 
+                          songlength = "3:39" 
+                          songcomposersandwriters = "Natalie Hemby / Luke Laird / Kacey Musgraves"
+                          songName = "Butterflies">
+                      </song>
+                      <song
+                          songposition = "4" 
+                          songlength = "4:01" 
+                          songcomposersandwriters = "Ian Fitchuk / Kacey Musgraves / Daniel Tashian"
+                          songName = "Oh, What a World">
+                      </song>
+                      <song
+                          songposition = "5" 
+                          songlength = "1:18"
+                          songcomposersandwriters = "Ian Fitchuk / Kacey Musgraves / Daniel Tashian"
+                          songName = "Mother">
+                      </song>
+                      <song
+                          songposition = "6" 
+                          songlength = "4:16" 
+                          songcomposersandwriters = "Ian Fitchuk / Kacey Musgraves / Daniel Tashian"
+                          songName = "Love Is a Wild Thing">
+                      </song>
+                      <song
+                          songposition = "7" 
+                          songlength = "3:36" 
+                          songcomposersandwriters = "Luke Laird / Shane McAnally / Kacey Musgraves"
+                          songName = "Space Cowboy">
+                      </song>
+                      <song
+                          songposition = "8" 
+                          songlength = "4:03" 
+                          songcomposersandwriters = "Ian Fitchuk / Kacey Musgraves / Daniel Tashian"
+                          songName = "Happy &amp; Sad">
+                      </song>
+                      <song
+                          songposition = "9" 
+                          songlength = "2:34" 
+                          songcomposersandwriters = "Luke Dick / Natalie Hemby / Kacey Musgraves"
+                          songName = "Velvet Elvis">
+                      </song>
+                      <song
+                          songposition = "10" 
+                          songlength = "4:00" 
+                          songcomposersandwriters = "Jesse Frasure / Hillary Lindsey / Kacey Musgraves / Amy Wadge"
+                          songName = "Wonder Woman">
+                      </song>
+                      <song
+                          songposition = "11" 
+                          songlength = "3:33" 
+                          songcomposersandwriters = "Trent Dabbs / Kacey Musgraves / Tom Schleiter"
+                          songName = "High Horse">
+                      </song>
+                      <song
+                          songposition = "12" 
+                          songlength = "3:18" 
+                          songcomposersandwriters = "Ian Fitchuk / Kacey Musgraves / Daniel Tashian"
+                          songName = "Golden Hour">
+                      </song>
+                      <song
+                          songposition = "13" 
+                          songlength = "3:34" 
+                          songcomposersandwriters = "Natalie Hemby / Shane McAnally / Kacey Musgraves"
+                          songName = "Rainbow">
+                      </song>
+                  </Songs>
+                  
+                  <producersMixersSongwritersEngineers>
+                  <producers>
+                      Ian Fitchuk, Kacey Musgraves &amp; Daniel Tashian
+                  </producers>
+                  <engineersMixers>
+                      Craig Alvin &amp; Shawn Everett
+                  </engineersMixers>
+                  <songwriters>
+                      Ian Fitchuk, Kacey Musgraves &amp; Daniel Tashian
+                  </songwriters>
+                  <masteringEngineer>
+                      Greg Calbi &amp; Steve Fallone
+                  </masteringEngineer>
+                  </producersMixersSongwritersEngineers>
+              </album>
+    </artist>
+    
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "N/A" careerend= "N/A"
+        artistName = "Kendrick Lamar">
+                <album
+                    albumName = "Black Panther: The Album, Music From And Inspired By"
+                    albumCategory = "Grammy_Nominee">
+                    
+                    <albumArt>
+                        Various Artists.jpg
+                        <!-- Found from albumartexchange.com -->
+                    </albumArt>
+                    
+                    <releases>
+                        <release
+                            release = "Black Panther: The Album (music from and inspired by) (clean lyrics, mastered for iTunes)"
+                            releasedate = "2018-02-09"
+                            recordlabel= "Aftermath Entertainment (US rap), Interscope Records, Top Dawg Entertainment"
+                            recordlabelcatalognumber = "N/A"
+                            barcodenumber = "602567350224"
+                            country = "US"
+                            format = "Digital Media">
+                        </release>
+                        <release
+                            release = "Black Panther: The Album (music from and inspired by) (mastered for iTunes)"
+                            releasedate = "2018-02-09"
+                            recordlabel= "Aftermath Entertainment (US rap), Interscope Records, Top Dawg Entertainment"
+                            recordlabelcatalognumber = "N/A"
+                            barcodenumber = "602567350248"
+                            country = "US"
+                            format = "Digital Media">
+                        </release>
+                        <release 
+                            release = "Black Panther: The Album (music from and inspired by)"
+                            releasedate = "2018-02-09"
+                            recordlabel= "Aftermath Entertainment (US rap), Interscope Records, Top Dawg Entertainment"
+                            recordlabelcatalognumber = "N/A"
+                            barcodenumber = "602567364306"
+                            country = "US"
+                            format = "CD">
+                        </release>
+                        <release 
+                            release = "Black Panther: The Album (music from and inspired by)"
+                            releasedate = "2018-02-09"
+                            recordlabel= "Aftermath Entertainment (US rap), Interscope Records, Top Dawg Entertainment"
+                            recordlabelcatalognumber = "N/A"
+                            barcodenumber = "602567359586"
+                            country = "XW"
+                            format = "Digital Media">
+                        </release>
+                        <release
+                            release = "Black Panther: The Album (music from and inspired by) (44.1kHz/24bit)"
+                            releasedate = "2018-02-09"
+                            recordlabel= "Aftermath Entertainment (US rap), Interscope Records, Top Dawg Entertainment"
+                            recordlabelcatalognumber = "00602567443513"
+                            barcodenumber = "602567443513"
+                            country = "XW"
+                            format = "Digital Media">
+                        </release>
+                        <release 
+                            release = "Black Panther: The Album (music from and inspired by) (clean version)"
+                            releasedate = "2018-02-11"
+                            recordlabel= "	Aftermath Records (US rap)"
+                            recordlabelcatalognumber = "N/A"
+                            barcodenumber = "N/A"
+                            country = "XW"
+                            format = "Digital Media">
+                        </release>
+                    </releases>
+                    
+                    <Songs>
+                        <song
+                            songposition = "1" 
+                            songlength = "2:11" 
+                            songcomposersandwriters = "Kendrick Duckworth / Kevin Gomringer / Tim Gomringer / Matt Schaeffer / Mark Spears"
+                            songName = "Black Panther">
+                        </song>
+                        <song
+                            songposition = "2" 
+                            songlength = "3:52" 
+                            songcomposersandwriters = "Kendrick Lamar / Solana Rowe / Alexander Shuckburgh / Mark Spears"
+                            songName = "All the Stars">
+                        </song>
+                        <song
+                            songposition = "3" 
+                            songlength = "4:27" 
+                            songcomposersandwriters = "Kendrick Duckworth / Tauheed Epps / Quincy Hanley / Ramon Ibanga / Anele Mbisha / Mark Spears"
+                            songName = "X">
+                        </song>
+                        <song
+                            songposition = "4" 
+                            songlength = "3:59" 
+                            songcomposersandwriters = "Khalif Brown / Kendrick Duckworth / Chester Hansen / Khalid Robinson / Alexander Sowinski / Mark Spears / Matthew Tavares / Leland Whitty"
+                            songName = "The Ways">
+                        </song>
+                        <song
+                            songposition = "5" 
+                            songlength = "3:01" 
+                            songcomposersandwriters = "Kendrick Duckworth / Ludwig Göransson / Mark Spears / Vince Staples"
+                            songName = "Opps">
+                        </song>
+                        <song
+                            songposition = "6" 
+                            songlength = "3:29" 
+                            songcomposersandwriters = "Tobias Breuer / Troy Chester / Kendrick Duckworth / J Smith / Jorja Smith / Mark Spears"
+                            songName = "I Am">
+                        </song>
+                        <song
+                            songposition = "7" 
+                            songlength = "3:39" 
+                            songcomposersandwriters = "Wayman Barrow / Jabbar Brown / Kendrick Duckworth / Kevin Gomringer / Tim Gomringer / Juwon Lee / Dacoury Natche / Mark Spears"
+                            songName = "Paramedic!">
+                        </song>
+                        <song
+                            songposition = "8" 
+                            songlength = "4:32" 
+                            songcomposersandwriters = "Robin Braun / Kendrick Duckworth / Herbert Anthony Stevens IV / Jimmy Litherland / Mark Spears"
+                            songName = "Bloody Waters">
+                        </song>
+                        <song 
+                            songposition = "9" 
+                            songlength = "3:45" 
+                            songcomposersandwriters = "James Blake / Samuel Gloade / Antwon Thompson Hicks / Kendrick Lamar / Johnny McKinzie / Mark Spears / Teddy Walton / Nayvadius Wilburn / Michael Williams"
+                            songName = "King's Dead">
+                        </song>
+                        <song
+                            songposition = "10" 
+                            songlength = "1:25" 
+                            songcomposersandwriters = "Hykeem Carter / Kendrick Duckworth / Zacari Pacaldo"
+                            songName = "Redemption Interlude">
+                        </song>
+                        <song
+                            songposition = "11" 
+                            songlength = "3:42" 
+                            songcomposersandwriters = "Kendrick Duckworth / Mandla Maphumulo / Kurtis McKenzie / Zacari Pacaldo / Mikey Riley / Bongekile Simelane / Teddy Walton"
+                            songName = "Redemption">
+                        </song>
+                        <song 
+                            songposition = "12" 
+                            songlength = "4:02" 
+                            songcomposersandwriters = "Kendrick Duckworth / Adam Feeney / Robert Gill / Jabulani Hadebe / Timothy Patterson / Mark Spears"
+                            songName = "Seasons">
+                        </song>
+                        <song
+                            songposition = "13" 
+                            songlength = "3:42" 
+                            songcomposersandwriters = "Kendrick Duckworth / Kevin Gomringer / Tim Gomringer / Brock Korsan / Ronald LaTour / Mark Spears / Jacques Webster"
+                            songName = "Big Shot">
+                        </song>
+                        <song
+                            songposition = "14" 
+                            songlength = "3:31" 
+                            songcomposersandwriters = "Kendrick Duckworth / Adam Feeney / Martin McKinney / Abel Tesfaye"
+                            songName = "Pray for Me">
+                        </song>
+                    </Songs>
+                    
+                    <producersMixersSongwritersEngineers>
+                    <producers>
+                        Kendrick Duckworth &amp; Sounwave
+                    </producers>
+                    <engineersMixers>
+                        Matt Schaeffer
+                    </engineersMixers>
+                    <songwriters>
+                        Kendrick Duckworth &amp; Mark Spears
+                    </songwriters>
+                    <masteringEngineer>
+                        Mike Bozzi
+                    </masteringEngineer>
+                    </producersMixersSongwritersEngineers>
+                </album>
+        
+    </artist>
+  
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "1993" careerend= "N/A"
+        artistName = "Pusha T">
+        
+            <album
+                albumName = "DAYTONA"
+                albumCategory = "Personal_Favorite">
+                
+                <albumArt>
+                    Pusha T.jpg
+                    <!-- Found from albumartexchange.com -->
+                </albumArt>
+                
+                <releases>
+                    <release
+                        release = "DAYTONA (explicit)"
+                        releasedate = "2018-05-25 / 2018-05-25"
+                        recordlabel= "Def Jam Recordings, G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "00602547821140"
+                        country = "XW / US"
+                        format = "Digital Media">
+                    </release>
+                    <release 
+                        release = "DAYTONA"
+                        releasedate = "2018-05-25"
+                        recordlabel= "Def Jam Recordings"
+                        recordlabelcatalognumber = "B0023488-02"
+                        barcodenumber = "602547407382"
+                        country = "US"
+                        format = "CD">
+                    </release>
+                    <release
+                        release = "DAYTONA"
+                        releasedate = "2018-05-25"
+                        recordlabel= "Def Jam Recordings, G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602547821119"
+                        country = "XW"
+                        format = "Digital Media">
+                    </release>
+                </releases>
+                
+                <Songs>
+                    <song
+                        songposition = "1" 
+                        songlength = "3:22" 
+                        songcomposersandwriters = "N/A"
+                        songName = "If You Know You Know">
+                    </song>
+                    <song
+                        songposition = "2" 
+                        songlength = "2:46" 
+                        songcomposersandwriters = "N/A"
+                        songName = "The Games We Play">
+                    </song>
+                    <song
+                        songposition = "3" 
+                        songlength = "3:15" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Hard Piano">
+                    </song>
+                    <song 
+                        songposition = "4" 
+                        songlength = "3:26" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Come Back Baby">
+                    </song>
+                    <song
+                        songposition = "5" 
+                        songlength = "2:56" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Santeria">
+                    </song>
+                    <song 
+                        songposition = "6" 
+                        songlength = "2:33" 
+                        songcomposersandwriters = "N/A"
+                        songName = "What Would Meek Do?">
+                    </song>
+                    <song 
+                        songposition = "7" 
+                        songlength = "2:50" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Infrared">
+                    </song>
+                </Songs>
+            </album>
+    </artist>
+        
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "2015" careerend= "N/A"
+        artistName = "Kanye West">
+  
+            <album
+                albumName = "Ye"
+                albumCategory = "Personal_Favorite">
+                
+                <albumArt>
+                    Kanye West.jpg
+                    <!-- Found from albumartexchange.com -->
+                </albumArt>
+                
+                <releases>
+                    <release
+                        release = "ye (Mastered for iTunes)"
+                        releasedate = "2018-06-01"
+                        recordlabel= "G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567700678"
+                        country = "XW"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "ye (explicit)"
+                        releasedate = "2018-06-01"
+                        recordlabel= "G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567700685"
+                        country = "XW"
+                        format = "Digital Media">
+                    </release>
+                    <release 
+                        release = "ye (clean lyrics, Mastered for iTunes)"
+                        releasedate = "2018-06-06"
+                        recordlabel= "G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567700692"
+                        country = "XW"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "ye"
+                        releasedate = "2018"
+                        recordlabel= "Def Jam Recordings"
+                        recordlabelcatalognumber = "00602567793489"
+                        barcodenumber = "602567700692"
+                        country = "XE"
+                        format = "CD">
+                    </release>
+                    <release
+                        release = "ye (Hi Res download)"
+                        releasedate = "2018"
+                        recordlabel= "G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "[none]"
+                        country = "US"
+                        format = "Digital Media">
+                    </release>
+                </releases>
+                
+                <Songs>
+                    <song
+                        songposition = "1" 
+                        songlength = "4:34" 
+                        songcomposersandwriters = "N/A"
+                        songName = "I Thought About Killing You">
+                    </song>
+                    <song
+                        songposition = "2" 
+                        songlength = "3:08" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Yikes">
+                    </song>
+                    <song 
+                        songposition = "3" 
+                        songlength = "2:25" 
+                        songcomposersandwriters = "N/A"
+                        songName = "All Mine">
+                    </song>
+                    <song 
+                        songposition = "4" 
+                        songlength = "3:25" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Wouldn't Leave">
+                    </song>
+                    <song 
+                        songposition = "5" 
+                        songlength = "2:03" 
+                        songcomposersandwriters = "N/A"
+                        songName = "No Mistakes">
+                    </song>
+                    <song
+                        songposition = "6" 
+                        songlength = "4:31" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Ghost Town">
+                    </song>
+                    <song
+                        songposition = "7" 
+                        songlength = "3:35" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Violent Crimes">
+                    </song>
+                </Songs>
+            </album>
+    </artist> 
+       
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "1991" careerend= "N/A"
+        artistName = "Nas">
+        
+            <album
+                albumName = "NASIR"
+                albumCategory = "Personal_Favorite">
+                
+                <albumArt>
+                    Nas.jpg
+                    <!-- Found from albumartexchange.com -->
+                </albumArt>
+                
+                <releases>
+                    <release 
+                        release = "NASIR (mastered for iTunes)"
+                        releasedate = "2018-06-15"
+                        recordlabel= "Def Jam Recordings, Mass Appeal Records (Nas' label)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567816775"
+                        country = "US"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "NASIR"
+                        releasedate = "2018-06-15 / 2018-06-15"
+                        recordlabel= "Def Jam Recordings, Mass Appeal Records (Nas' label)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567816782"
+                        country = "XW / US"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "NASIR"
+                        releasedate = "2018-10-26"
+                        recordlabel= "Def Jam Recordings, Mass Appeal Records (Nas' label)"
+                        recordlabelcatalognumber = "B0028812-02"
+                        barcodenumber = "602567816720"
+                        country = "XW / US"
+                        format = "CD">
+                    </release>
+                </releases>
+                
+                <Songs>
+                    <song 
+                        songposition = "1" 
+                        songlength = "3:23" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Not for Radio">
+                    </song>
+                    <song
+                        songposition = "2" 
+                        songlength = "2:48" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Cops Shot the Kid">
+                    </song>
+                    <song
+                        songposition = "3" 
+                        songlength = "2:58" 
+                        songcomposersandwriters = "N/A"
+                        songName = "White Label">
+                    </song>
+                    <song
+                        songposition = "4" 
+                        songlength = "3:22" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Bonjour">
+                    </song>
+                    <song
+                        songposition = "5" 
+                        songlength = "7:33" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Everything">
+                    </song>
+                    <song 
+                        songposition = "6" 
+                        songlength = "4:11" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Adam and Eve">
+                    </song>
+                    <song
+                        songposition = "7" 
+                        songlength = "2:20" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Simple Things">
+                    </song>
+                </Songs>
+            </album>
+    </artist>
+        
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "2018" careerend= "N/A"
+        artistName = "Kids See Ghosts">
+       
+            
+            <album
+                albumName = "Kids See Ghosts"
+                albumCategory = "Personal Favorite">
+                
+                <albumArt>
+                    Kids See Ghosts.jpg
+                    <!-- Found from albumartexchange.com -->
+                </albumArt>
+                
+                <releases>
+                    <release
+                        release = "KIDS SEE GHOSTS"
+                        releasedate = "2018-06-08"
+                        recordlabel= "G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "[none]"
+                        country = "US"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "KIDS SEE GHOSTS"
+                        releasedate = "2018-06-08"
+                        recordlabel= "G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "[none]"
+                        country = "XW"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "KIDS SEE GHOSTS (Mastered for iTunes)"
+                        releasedate = "2018-06-08"
+                        recordlabel= "G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567803881"
+                        country = "XW"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "KIDS SEE GHOSTS (Mastered for iTunes, clean lyrics)"
+                        releasedate = "2018-06-12"
+                        recordlabel= "G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567794318"
+                        country = "US"
+                        format = "Digital Media">
+                    </release>
+                </releases>
+                
+                <Songs>
+                    <song
+                        songposition = "1" 
+                        songlength = "2:45" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Feel the Love">
+                    </song>
+                    <song 
+                        songposition = "2" 
+                        songlength = "2:21" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Fire">
+                    </song>
+                    <song
+                        songposition = "3" 
+                        songlength = "2:33" 
+                        songcomposersandwriters = "N/A"
+                        songName = "4th Dimension">
+                    </song>
+                    <song
+                        songposition = "4" 
+                        songlength = "3:27" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Freeee (Ghost Town, Pt. 2)">
+                    </song>
+                    <song 
+                        songposition = "5" 
+                        songlength = "5:25" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Reborn">
+                    </song>
+                    <song 
+                        songposition = "6" 
+                        songlength = "4:05" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Kids See Ghosts">
+                    </song>
+                    <song 
+                        songposition = "7" 
+                        songlength = "3:17" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Cudi Montage">
+                    </song>
+                </Songs>
+            </album>
+    </artist>
+     
+    <artist
+        personorgroup= "person" 
+        groupmembernames= "N/A" 
+        artistorgroupcountry= "United States" 
+        careerBegin= "2015" careerend= "N/A"
+        artistName = "Teyana Taylor">
+        
+            <album
+                albumName = "K.T.S.E."
+                albumCategory = "Personal_Favorite">
+                
+                <albumArt>
+                    Teyana Taylor.jpg
+                    <!-- Found from albumartexchange.com -->
+                </albumArt>
+                
+                <releases>
+                    <release 
+                        release = "K.T.S.E. (Mastered for iTunes)"
+                        releasedate = "2018-06-23"
+                        recordlabel= "Def Jam Recordings, G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567859000"
+                        country = "XW"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "K.T.S.E. (Mastered for iTunes, clean lyrics)"
+                        releasedate = "2018-07-13"
+                        recordlabel= "Def Jam Recordings, G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "N/A"
+                        barcodenumber = "602567859031"
+                        country = "XS"
+                        format = "Digital Media">
+                    </release>
+                    <release
+                        release = "K.T.S.E."
+                        releasedate = "2018-11-30"
+                        recordlabel= "Def Jam Recordings, G.O.O.D. Music (Getting Out Our Dreams)"
+                        recordlabelcatalognumber = "00602567859062"
+                        barcodenumber = "602567859062"
+                        country = "XE"
+                        format = "CD">
+                    </release>
+                </releases>
+                <Songs>
+                    <song
+                        songposition = "1" 
+                        songlength = "1:39" 
+                        songcomposersandwriters = "N/A"
+                        songName = "No Manners">
+                    </song>
+                    <song
+                        songposition = "2" 
+                        songlength = "2:47" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Gonna Love Me">
+                    </song>
+                    <song
+                        songposition = "3" 
+                        songlength = "3:06" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Issues/Hold On">
+                    </song>
+                    <song
+                        songposition = "4" 
+                        songlength = "2:54" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Hurry">
+                    </song>
+                    <song 
+                        songposition = "5" 
+                        songlength = "3:23" 
+                        songcomposersandwriters = "N/A"
+                        songName = "3Way">
+                    </song>
+                    <song
+                        songposition = "6" 
+                        songlength = "3:42" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Rose in Harlem">
+                    </song>
+                    <song
+                        songposition = "7" 
+                        songlength = "2:39" 
+                        songcomposersandwriters = "N/A"
+                        songName = "Never Would Have Made It">
+                    </song>
+                    <song
+                        songposition = "8" 
+                        songlength = "2:46" 
+                        songcomposersandwriters = "N/A"
+                        songName = "WTP">
+                    </song>
+                </Songs>
+            </album>
+    </artist>
+</Albums>
