@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:simpleType name="productType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="album"/>
+            <xsd:enumeration value="song"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="Albums">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="artist">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="album">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="careerBegin" minOccurs="0">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                  <xsd:pattern value="[0-9][0-9][0-9][0-9]"> </xsd:pattern>
+                                                  <xsd:pattern value="N/A"> </xsd:pattern>
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="careerEnd" minOccurs="0">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                  <xsd:pattern value="[0-9][0-9][0-9][0-9]"> </xsd:pattern>
+                                                  <xsd:pattern value="N/A"> </xsd:pattern>
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="albumCategory">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                  <xsd:enumeration value="Grammy_Nominee"/>
+                                                  <xsd:enumeration value="Personal_Favorite"/>
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="Comment" minOccurs="0">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                  <xsd:minLength value="10"/>
+                                                  <xsd:maxLength value="200"/>
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="Rating">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:integer">
+                                                  <xsd:minInclusive value="1"/>
+                                                  <xsd:maxInclusive value="13"/>
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="albumArt">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                  <xsd:element name="pictureSource"
+                                                  type="xsd:string" minOccurs="0"/>
+                                                </xsd:sequence>
+                                                <xsd:attribute name="albumart">
+                                                  <xsd:simpleType>
+                                                  <xsd:restriction base="xsd:string">
+                                                  <xsd:pattern value="[A-Z]*.+(jpg|jpeg|png)"/>
+                                                  </xsd:restriction>
+                                                  </xsd:simpleType>
+                                                </xsd:attribute>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="releases">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                  <xsd:element name="release" maxOccurs="unbounded"
+                                                  > </xsd:element>
+                                                </xsd:sequence>
+                                                <xsd:attribute name="release" type="xsd:string"/>
+                                                <xsd:attribute name="releasedate">
+                                                  <xsd:simpleType>
+                                                  <xsd:restriction base="xsd:string">
+                                                  <xsd:pattern
+                                                  value="[0-9]{4}-[0-9]{2}-[0-9]{2} (/ [0-9]{4}-[0-9]{2}-[0-9]{2} / [0-9]{4}-[0-9]{2}-[0-9]{2})?"
+                                                  />
+                                                  </xsd:restriction>
+                                                  </xsd:simpleType>
+                                                </xsd:attribute>
+                                                <xsd:attribute name="recordlabel" type="xsd:string"
+                                                  use="optional"/>
+                                                <xsd:attribute name="recordlabelcatalognumber"
+                                                  type="xsd:string" use="optional"/>
+                                                <xsd:attribute name="barcodenumber"
+                                                  type="xsd:string" use="optional"/>
+                                                <xsd:attribute name="country" type="xsd:string"/>
+                                                <xsd:attribute name="format" use="optional">
+                                                  <xsd:simpleType>
+                                                  <xsd:restriction base="xsd:string">
+                                                  <xsd:enumeration value="Digital Media"/>
+                                                  <xsd:enumeration value="CD"/>
+                                                  <xsd:enumeration value="2×Digital Media"/>
+                                                  <xsd:enumeration value="2×Digital Media"/>
+                                                  <xsd:enumeration value="2×CD"/>
+                                                  <xsd:enumeration value="12 inch Vinyl"/>
+                                                  <xsd:enumeration value="Digital Media + CD"/>
+                                                  </xsd:restriction>
+                                                  </xsd:simpleType>
+
+                                                </xsd:attribute>
+                                            </xsd:complexType>
+                                        </xsd:element>
+
+                                        <xsd:element name="Songs">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                  <xsd:element name="song" type="xsd:string"
+                                                  maxOccurs="unbounded"> 
+                                                  </xsd:element>
+                                                </xsd:sequence>
+                                                <xsd:attribute name="songposition"
+                                                    type="xsd:integer" use="required"> </xsd:attribute>
+                                                <xsd:attribute name="songlength">
+                                                    <xsd:simpleType>
+                                                        
+                                                        <xsd:restriction base="xsd:string">
+                                                            <xsd:pattern value="[0-9]?[0-9]:[0-9]{2}"/>
+                                                        </xsd:restriction>
+                                                        
+                                                    </xsd:simpleType>
+                                                </xsd:attribute>
+                                                <xsd:attribute name="songcomposersandwriters"
+                                                    type="xsd:string"> </xsd:attribute>
+                                                <xsd:attribute name="songName" type="xsd:string"
+                                                    use="required"> </xsd:attribute>
+                                                <xsd:attribute name="sku">
+                                                    <xsd:simpleType>
+                                                        <xsd:restriction base="xsd:string">
+                                                            <xsd:pattern value="K315SPR19[A-Z][0-9][0-9][0-9]"
+                                                                > </xsd:pattern>
+                                                        </xsd:restriction>
+                                                    </xsd:simpleType>
+                                                </xsd:attribute>
+                                                <xsd:attribute name="albumref" use="required">
+                                                    <xsd:simpleType>
+                                                        <xsd:restriction base="xsd:IDREF">
+                                                            <xsd:pattern value="K315SPR19[A-Z]"
+                                                                > </xsd:pattern>
+                                                        </xsd:restriction>
+                                                    </xsd:simpleType>
+                                                </xsd:attribute>
+                                                <xsd:attribute name="type" type="productType"
+                                                    use="required"> </xsd:attribute>
+                                            </xsd:complexType>
+                                        </xsd:element>
+
+                                        <xsd:element name="producersMixersSongwritersEngineers"
+                                            minOccurs="0" maxOccurs="unbounded">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                  <xsd:element name="producers" type="xsd:string"
+                                                  minOccurs="0" maxOccurs="unbounded"/>
+                                                  <xsd:element name="engineersMixers" minOccurs="0"
+                                                  maxOccurs="unbounded" type="xsd:string"/>
+                                                  <xsd:element name="songwriters" type="xsd:string"/>
+                                                  <xsd:element name="masteringEngineer"
+                                                  type="xsd:string" minOccurs="0"
+                                                  maxOccurs="unbounded"/>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="albumName" type="xsd:string" use="required"/>
+                                    <xsd:attribute name="sku" use="required">
+                                        <xsd:simpleType>
+                                            <xsd:restriction base="xsd:string">
+                                                <xsd:pattern value="K315SPR19[A-Z]"/>
+
+                                            </xsd:restriction>
+
+                                        </xsd:simpleType>
+
+                                    </xsd:attribute>
+                                    <xsd:attribute name="type" type="productType" use="required"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="personorgroup" type="xsd:string" use="required"/>
+                        <xsd:attribute name="groupmembernames" type="xsd:string"/>
+                        <xsd:attribute name="artistorgroupcountry" type="xsd:string"/>
+                        <xsd:attribute name="artistName" type="xsd:string" use="required"/>
+                        <xsd:attribute name="genre" type="xsd:string" use="required"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
